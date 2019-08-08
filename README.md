@@ -25,6 +25,8 @@
                     $return_data = $this->cuttingImport($import_model, $type, $file);
                
                 }
+                
+        return $return_data;
 
 **CuttingUpload参数说明**
 
@@ -43,4 +45,5 @@
     code:1 正常合并文件
 
 **说明案例**
+
     code:2  合并文件完成后，返回了文件的路径，依据整个路径取得文件，接着进行文件的操作。
