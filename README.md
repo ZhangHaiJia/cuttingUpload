@@ -2,7 +2,7 @@
 
 **示例**
 
-        namespace zhanghaijia;
+        namespace zhanghaijia\CuttingUpload;
 
         $file = $_FILES['file'];
 
